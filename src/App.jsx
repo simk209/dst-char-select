@@ -1,5 +1,5 @@
 import Selection from './Selection.jsx'
-import CharacterPreview from './CharacterPreview.jsx'
+import Preview from './Preview.jsx'
 import './app.css';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
   return (
     <div className='app-container'>
       <Selection ></Selection>
-      <CharacterPreview ></CharacterPreview>
+      <Preview ></Preview>
     </div>
   )
 }

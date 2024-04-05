@@ -1,6 +1,6 @@
 
 
-function CharacterPreview() {
+function Preview() {
   
     return (
       <div>
@@ -9,4 +9,4 @@ function CharacterPreview() {
     )
   }
   
-  export default CharacterPreview
+  export default Preview
