@@ -1,14 +1,13 @@
-import { useState } from 'react'
-import './App.css'
+import Selection from './Selection.jsx'
+import CharacterPreview from './CharacterPreview.jsx'
+import './app.css';
 
 function App() {
-  const [count, setCount] = useState(0)
   
   return (
-    <div>
-      <Selection></Selection>
-      <CharacterPreview></CharacterPreview>
-
+    <div className='app-container'>
+      <Selection ></Selection>
+      <CharacterPreview ></CharacterPreview>
     </div>
   )
 }
