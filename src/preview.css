@@ -10,7 +10,7 @@
     font-size: 5em;
     position: absolute;
     top: -120px;
-    left:50%;
+    left:75%;
 
 
 }
@@ -23,7 +23,7 @@
 .preview{
     position: relative;
     background-color: brown;
-    display: inline-block
+    /* display: inline-block */
 }
 
 .stats{
