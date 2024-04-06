@@ -1,7 +1,7 @@
 import './preview.css'
 import Stats from './Stats.jsx'
 
-function Preview({selectedCharacter}) {
+function Preview({selectedCharacter, charIndex}) {
   
     return (
       <div className='preview'>
@@ -15,7 +15,7 @@ function Preview({selectedCharacter}) {
       <img  className="portrait"src = {`../public/previews/${selectedCharacter}.png`}/>
       
       </div>
-        <Stats  selectedCharacter = {selectedCharacter}></Stats>
+        <Stats charIndex={charIndex} selectedCharacter = {selectedCharacter}></Stats>
       </div>
     )
   }

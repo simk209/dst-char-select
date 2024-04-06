@@ -1,9 +1,10 @@
 import './card.css'
 
-function Card({name, onSelectCharacter}) {
+function Card({name, onSelectCharacter, index, onSelectIndex}) {
   
   const handleClick = () =>{
-    onSelectCharacter(name)
+    onSelectCharacter(name);
+    onSelectIndex(index);
   }
 
     return (
