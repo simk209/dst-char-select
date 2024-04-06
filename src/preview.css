@@ -4,7 +4,7 @@
 }
 
 .preview{
-    position: relatve;
+    position: relative;
     /* background-color: aqua; */
 }
 
@@ -12,8 +12,8 @@
     font-family: dst;
     font-size: 5em;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -110px;
+    left:50%;
 
 
 }
