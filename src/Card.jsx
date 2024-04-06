@@ -1,9 +1,13 @@
 import './card.css'
 
-function Card({name}) {
+function Card({name, onSelectCharacter}) {
   
+  const handleClick = () =>{
+    onSelectCharacter(name)
+  }
+
     return (
-      <div>
+      <div onClick = {handleClick}>
         <img src={`../public/heads/${name}.png`} alt={name} />
       </div>
     )

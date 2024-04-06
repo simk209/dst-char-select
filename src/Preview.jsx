@@ -1,10 +1,11 @@
 
-function Preview() {
+function Preview({selectedCharacter}) {
   
     return (
       <div>
-        preview
-        
+        <div className="name">
+          {selectedCharacter}
+        </div>
       </div>
     )
   }
