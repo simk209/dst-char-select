@@ -5,8 +5,8 @@ class Character {
       this.health = health
       this.hunger = hunger
       this.sanity = sanity
-      this.headImg = `.src/assets/heads/${name}.png`;
-      this.previewImg = `.src/assets/previews/${name}.png`;
+      // this.headImg = `./assets/heads/${name}.png`;
+      // this.previewImg = `./assets/previews/${name}.png`;
       this.description = description;
       this.locked = locked
     }

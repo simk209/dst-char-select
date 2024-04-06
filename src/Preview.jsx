@@ -1,10 +1,10 @@
 
-
 function Preview() {
   
     return (
       <div>
-        character preview
+        preview
+        
       </div>
     )
   }

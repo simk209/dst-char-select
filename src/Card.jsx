@@ -2,7 +2,7 @@ function Card({name}) {
   
     return (
       <div>
-        {name}
+        <img src={`../public/heads/${name}.png`} alt={name} />
       </div>
     )
   }
