@@ -1,23 +1,23 @@
-img{
+.card-img{
     border: 1.5px solid rgb(15, 9, 10);
     width:110px;
     height:110px;
     margin: .3em;
 }
 
-img:hover{
+.card-img:hover{
     border:2px solid rgba(150, 57, 60, 0.5);
     background-color: rgba(150, 57, 60, 0.274);
     padding:3px;
     cursor: pointer;
 }
 
-img:focus{
+.card-img:focus{
     border:2px solid rgb(150, 57, 60);
 }
 
 /* targets images with the "clicked" class added. you will need to add this class within your onClick functionality*/
-img.clicked{
+.card-img.clicked{
     border-color: rgb(226, 64, 43); 
     background-color: rgba(226, 64, 43, 0.2);
 }

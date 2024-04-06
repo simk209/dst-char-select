@@ -1,10 +1,13 @@
-
+import './preview.css'
 function Preview({selectedCharacter}) {
   
     return (
-      <div>
+      <div className='preview'>
         <div className="name">
           {selectedCharacter}
+        </div>
+        <div  >
+        <img src = {`../public/previews/${selectedCharacter}.png`}/>
         </div>
       </div>
     )

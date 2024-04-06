@@ -8,7 +8,7 @@ function Card({name, onSelectCharacter}) {
 
     return (
       <div onClick = {handleClick}>
-        <img src={`../public/heads/${name}.png`} alt={name} />
+        <img className = "card-img" src={`../public/heads/${name}.png`} alt={name} />
       </div>
     )
   }
