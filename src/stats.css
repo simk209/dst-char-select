@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'dst';
+    src: url(./fonts/belisa_plumilla.ttf);
+}
+
 .stat-icons{
     display: flex;
     width: 250px;
@@ -8,3 +13,57 @@
     display: inline-block;
 }
 
+button{
+    border: none;
+    font-family: Roboto, sans-serif;
+}
+
+
+.health{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: .3em;
+}
+
+.health img{
+    width: 70px;
+    height: 70px;
+
+}
+
+.health button{
+    padding:0px;
+    border-radius: .2em;
+    background-color: rgba(243, 188, 59, 0.789);
+
+}
+
+.hunger{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: .3em;
+}
+
+.hunger button{
+    padding:0px;
+    border-radius: .2em;
+    background-color: rgba(243, 188, 59, 0.789);
+
+
+}
+
+.sanity{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.sanity button{
+    padding:0px;
+    border-radius: .2em;
+    background-color: rgba(243, 188, 59, 0.789);
+    
+}

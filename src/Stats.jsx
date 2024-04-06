@@ -8,23 +8,23 @@ function Stats({selectedCharacter, charIndex}) {
             <div className="stat-icons">
                 <div className='health'>
                     <img src="../public/meter/health.png" />
-                    <div>
+                    <button>
                         {characters[charIndex].health}
-                    </div>
+                    </button>
                 </div>
 
                 <div className='hunger'>
                     <img src="../public/meter/hunger.png" />
-                    <div>
+                    <button>
                         {characters[charIndex].hunger}
-                    </div>
+                    </button>
                 </div>
 
                 <div className='sanity'>
                     <img src="../public/meter/sanity.png" />
-                    <div>
+                    <button>
                         {characters[charIndex].sanity}
-                    </div>
+                    </button>
                 </div>
             </div>
 

@@ -22,12 +22,12 @@
 
 .preview{
     position: relative;
-    background-color: brown;
+    /* background-color: brown; */
     /* display: inline-block */
 }
 
 .stats{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     position: absolute;
     top:0;
     left:100%;
