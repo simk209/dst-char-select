@@ -12,17 +12,17 @@ class Character {
     }
   }
 
-const wilson = new Character('Wilson','just a regular guy',)
-const willow = new Character('Willow','not crazy about the winter',150,150,120)
-const wolfgang = new Character('Wolfgang','normally a strongman',)
-const wendy = new Character('Wendy','her sister is a ghost',)
-const wx78 = new Character('WX-78', 'lightning is his drug of choice',150,150,150)
-const wickerbottom = new Character ('Wickerbottom', 'the funky librarian',125,150,250,true);
-const maxwell = new Character('Maxwell', 'dapper, but frail',75,150,200);
-const wigfrid = new Character('Wigfrid', 'a carnivorous viking',200,120,120);
-const webber = new Character('Webber',"the piggies hate this guy",175,175,100)
-const winona = new Character('Winona',"a skilled builder",)
-const wormwood = new Character('Wormwood',"has something of a green thumb",150,150,200,true)
+const wilson = new Character('Wilson','Just A Regular Guy',)
+const willow = new Character('Willow',"Not Crazy About The Winter",150,150,120)
+const wolfgang = new Character('Wolfgang','Normally A Strongman',)
+const wendy = new Character('Wendy','Shares A Close Bond With Her Sister',)
+const wx78 = new Character('WX-78', 'Lightning Is His Drug Of Choice',150,150,150)
+const wickerbottom = new Character ('Wickerbottom', 'The Funky Librarian',125,150,250,true);
+const maxwell = new Character('Maxwell', 'Dapper, but Frail',75,150,200);
+const wigfrid = new Character('Wigfrid', 'Carnivorous Viking',200,120,120);
+const webber = new Character('Webber',"The Piggies Hate This Guy",175,175,100)
+const winona = new Character('Winona',"A Skilled Builder",)
+const wormwood = new Character('Wormwood',"Known For His Green Thumb",150,150,200,true)
 
 const characters = [wilson,willow,winona,wolfgang,wendy,wx78,wigfrid,webber,maxwell,wickerbottom,wormwood]
 

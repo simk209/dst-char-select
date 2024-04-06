@@ -33,3 +33,15 @@
     left:100%;
 
 }
+
+.description{
+    position: absolute;
+    left:100%;
+    top:30%;
+    margin-left:1em;
+    width: 70%;
+    /* background-color: rgb(199, 196, 255); */
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+
+}
