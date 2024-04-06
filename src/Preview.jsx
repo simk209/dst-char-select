@@ -15,9 +15,7 @@ function Preview({selectedCharacter}) {
       <img  className="portrait"src = {`../public/previews/${selectedCharacter}.png`}/>
       
       </div>
-
-        <Stats className = "stats" selectedCharacter = {selectedCharacter}></Stats>
-
+        <Stats  selectedCharacter = {selectedCharacter}></Stats>
       </div>
     )
   }
