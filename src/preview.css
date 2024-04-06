@@ -3,23 +3,33 @@
     src: url(./fonts/belisa_plumilla.ttf);
 }
 
-.preview{
-    position: relative;
-    /* background-color: aqua; */
-}
 
 .name{
+    /* background-color: blueviolet; */
     font-family: dst;
     font-size: 5em;
     position: absolute;
-    top: -110px;
+    top: -120px;
     left:50%;
 
 
 }
 
-.preview img {
-    width: 300px; /* Set the image width to 100% of its container */
+.portrait {
+    width: 300px;
     height: auto; /* Maintain aspect ratio */
-    margin: 0 auto; /* Center the image horizontally */
   }
+
+.preview{
+    position: relative;
+    background-color: brown;
+    display: inline-block
+}
+
+.stats{
+    background-color: blueviolet;
+    position: absolute;
+    top:0;
+    left:100%;
+
+}

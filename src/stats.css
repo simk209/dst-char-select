@@ -1,0 +1,9 @@
+.stats{
+    display: flex;
+    width: 250px;
+
+}
+
+.stats-container{
+    display: inline-block;
+}
