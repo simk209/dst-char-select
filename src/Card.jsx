@@ -1,3 +1,5 @@
+import './card.css'
+
 function Card({name}) {
   
     return (
