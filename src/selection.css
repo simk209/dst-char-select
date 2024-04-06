@@ -1,6 +1,7 @@
 .rows{
     display: flex;
     flex-direction: column;
+    margin-right: 2em ;
 }
 .row{
     display: flex;

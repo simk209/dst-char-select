@@ -1,6 +1,8 @@
 .app-container{
     display: flex;
     flex-direction: row;
+    margin-left: 5em;
+    margin-right: 5em;
 
 }
 
