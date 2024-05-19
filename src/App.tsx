@@ -1,19 +1,19 @@
-import Selection from './Selection.jsx'
-import Preview from './Preview.jsx'
+import Selection from './Selection.tsx'
+import Preview from './Preview.tsx'
 import './app.css';
 import { useState } from 'react';
 
 
 
 function App() {
-  const [selectedCharacter, setSelectedCharacter] = useState("Wilson");
-  const [charIndex, setCharIndex] = useState(0)
+  const [selectedCharacter, setSelectedCharacter] = useState<string>("Wilson");
+  const [charIndex, setCharIndex] = useState<number>(0)
 
-  const handleSelectCharacter = (character) => {
+  const handleSelectCharacter = (character:any):void => {
     setSelectedCharacter(character);
   };
 
-  const handleCharIndex = (index) => {
+  const handleCharIndex = (index:number):void => {
     setCharIndex(index)
   }
   

@@ -1,6 +1,12 @@
 import './stats.css'
-import characters from '../character-info'
-function Stats({selectedCharacter, charIndex}) {
+import characters from '../character-info.ts'
+
+type StatsProps = {
+    selectedCharacter: string
+    charIndex: number
+}
+
+function Stats({selectedCharacter, charIndex}: StatsProps) {
     
     return (
         <div className="stats">

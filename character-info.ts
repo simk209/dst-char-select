@@ -1,6 +1,13 @@
+export class Character {
 
-class Character {
-    constructor(name, description,health =150,hunger=150,sanity =200, locked = false) {
+    name: string;
+    health: number;
+    hunger: number;
+    sanity: number;
+    description: string;
+    locked: boolean;
+
+    constructor(name:string, description:string,health = 150,hunger=150,sanity =200, locked = false) {
       this.name = name;
       this.health = health
       this.hunger = hunger
@@ -24,6 +31,6 @@ const webber = new Character('Webber',"The Piggies Hate This Guy",175,175,100)
 const winona = new Character('Winona',"A Skilled Builder",)
 const wormwood = new Character('Wormwood',"Known For His Green Thumb",150,150,200,true)
 
-const characters = [wilson,willow,winona,wolfgang,wendy,wx78,wigfrid,webber,maxwell,wickerbottom,wormwood]
+const characters: Character[] = [wilson,willow,winona,wolfgang,wendy,wx78,wigfrid,webber,maxwell,wickerbottom,wormwood]
 
 export default characters;

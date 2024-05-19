@@ -1,8 +1,15 @@
 import './card.css'
 
-function Card({name, onSelectCharacter, index, onSelectIndex}) {
+type CardProps = {
+  name: string
+  index: number
+  onSelectCharacter: (character: string) => void
+  onSelectIndex: (index:number) => void
+}
 
-  const handleClick = (event) =>{
+function Card({name, onSelectCharacter, index, onSelectIndex}: CardProps) {
+
+  const handleClick = (event: React.MouseEvent<HTMLDivElement>) =>{
     const allCards = document.querySelectorAll('.card-img'); // Select all .card-img elements
     allCards.forEach((card) => card.classList.remove('clicked')); // Remove 'clicked' class from all cards
     event.currentTarget.querySelector('.card-img').classList.add('clicked'); // Add 'clicked' class to the clicked card-img

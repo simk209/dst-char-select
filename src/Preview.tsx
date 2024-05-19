@@ -1,8 +1,13 @@
 import './preview.css'
-import Stats from './Stats.jsx'
-import characters from '../character-info.js'
+import Stats from './Stats.tsx'
+import characters from '../character-info.ts'
 
-function Preview({selectedCharacter, charIndex}) {
+type PreviewProps = {
+  selectedCharacter: string
+  charIndex: number
+}
+
+function Preview({selectedCharacter, charIndex}:PreviewProps) {
   
     return (
       <div className='preview'>
